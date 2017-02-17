@@ -1,0 +1,144 @@
+/*------------------------------------
+	Simple reset and page styles
+-------------------------------------*/
+
+* {
+	margin:0;
+	padding:0;
+}
+
+html{
+	background-color: #34495E  ;
+}
+
+body{
+	font: normal 14px courier new;
+	color: white;
+}
+
+
+/*------------------------------------
+	Pertinent code for the sidebar
+-------------------------------------*/
+
+
+#page {
+	
+	/*
+	 	First, we set the top-level element to display:flex. By
+		default, it will orient its children horizontally. We are
+		providing -webkit- versions for Safari and iOS.
+	 */
+
+	display: -webkit-flex;
+	display: flex;
+
+	/* Then, we give it a max-width and center it */
+
+	max-width:1200px;
+	margin:0 auto;
+}
+
+a { text-decoration: none;'
+
+     color:white; 
+
+ }
+
+
+
+a:hover { color:white; }
+
+
+#main {
+	
+	/* 
+		We then set the child with the main content of 
+		the page to grow automatically and take all the space
+	*/
+	
+	-webkit-flex-grow:1;
+	flex-grow:1;
+}
+
+aside{
+	
+	/* 
+		The sidebar wont grow automatically (flex-grow defaults to 0),
+		and has a width. We should only disable shrinking by setting
+		flex-shrink to 0.
+	*/
+
+	-webkit-flex-shrink:0;
+	flex-shrink:550px;
+	width:10px;
+}
+
+
+/*------------------------------------
+	Styling the content and sidebar
+-------------------------------------*/
+
+
+#main {
+	background-color:#34495E;
+	padding:100px 200px 50px 200px;
+	line-height: 1.5;
+	color:white;
+}
+
+#main h1{
+	margin-bottom: 28px;
+	font-size: 24px;
+}
+
+#main p{
+	margin-bottom: 24px;
+}
+
+img {
+
+	width: 670px;
+	height: 500px;
+}
+
+#mobile img { 
+	width: 650px;
+	height: 710px; }
+
+
+
+aside .wireframe-box.double{
+	padding:100px;
+}
+
+@media all and (max-width: 800px) {
+
+	/* On small screens, make elements show one beneath the other */
+
+	#page {
+		-webkit-flex-flow:column;
+		flex-flow:column;
+	}
+
+	/* Also make the sidebar take the entire width of the screen */
+
+	aside{
+		width:auto;
+	}
+
+	#main{
+		padding-right:40px;
+	}
+}
+
+
+/*------------------------------------
+	Demo footer. Ignore and remove
+-------------------------------------*/
+
+
+
+
+
+

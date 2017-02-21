@@ -88,17 +88,16 @@ aside{
 	position: relative;
 	
     font-weight: 100;
-  font-size: 15px;
+  font-size: 12px;
   line-height: 25px;
   display: inline-block;
-  
-  margin: -20px 20px;
+   margin: -20px 20px;
   vertical-align: top;
    float: right;
         min-height: 10px; 
-        width: 32.66%; 
+        width: 30.66%; 
         top: 38px;
-        
+        text-align: justify-all;
         
 }
 

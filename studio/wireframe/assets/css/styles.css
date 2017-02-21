@@ -71,29 +71,47 @@ aside{
 
 #main {
 	background-color:#34495E;
-	padding:100px 200px 50px 200px;
+	padding:100px 200px 0px 100px;
 	line-height: 1.5;
 	color:white;
 }
 
 #main h1{
-	margin-bottom: 28px;
+	position: relative;
+	margin-left: 18px;
+	margin-bottom: 35px;
 	font-size: 24px;
 }
 
 #main p{
-	margin-bottom: 24px;
+
+	position: relative;
+	
+    font-weight: 100;
+  font-size: 15px;
+  line-height: 25px;
+  display: inline-block;
+  
+  margin: -20px 20px;
+  vertical-align: top;
+   float: right;
+        min-height: 10px; 
+        width: 32.66%; 
+        top: 38px;
+        
+        
 }
 
 img {
 
-	width: 670px;
-	height: 500px;
+	width: 500px;
+	height: 400px;
+	margin: 20px;
 }
 
 #mobile img { 
-	width: 650px;
-	height: 710px; }
+	width: 400px;
+	height: 550px; }
 
 
 
@@ -125,6 +143,7 @@ aside .wireframe-box.double{
 /*------------------------------------
 	Demo footer. Ignore and remove
 -------------------------------------*/
+
 
 
 

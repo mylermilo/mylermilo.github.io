@@ -1,0 +1,76 @@
+
+
+
+#link{
+
+
+  width: 10%;
+  text-align: right;
+  vertical-align: top;
+  float: left;
+  display: inline-block;
+  font-weight: 300;
+  margin-right: 70px;
+  margin-left: 70px;
+ 
+}
+
+
+html{
+    background-color: white  ;
+}
+
+body {background-color: white;
+      margin-top: 50px;
+      
+          }
+
+ a  {
+    font-family: 'overpass mono', monospace;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+
+}
+
+header { font-family: 'overpass mono', monospace;
+
+font-weight: 400;
+
+font-size: 17px;
+color: black;
+
+ margin-left: 85px; 
+ margin-bottom: 40px;}
+
+
+
+
+#videosList {
+  display: inline-block; 
+ width:900px;
+ height:500px;
+  overflow: hidden;
+}
+
+.video {
+  display: inline-block;
+  background-image: url('img/lm_10.jpg');  
+  height: 100%;
+  width: 100%;
+  margin-bottom: 50px;
+  position: relative;
+ 
+}
+
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+    display:none !important;
+}
+
+
+#thevideo {
+  display: none;
+}
+
+

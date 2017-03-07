@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+
+
+
+<html>
+<link href="assets/css/styles.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Overpass+Mono:300" rel="stylesheet">
+
+
+
+<body>
+    
+    <header>
+       <a href="document.html"> <h1>Inspiration-Ego</h1></a>
+       
+    </header>
+    
+
+     
+
+ <div id="link">
+    <a href="ego.html">Men</a><br>
+    <br></br>
+    <a href="ego_2.html">Women</a><br>
+    <br></br>
+    <a href="main.html">Main</a><br>
+    </div>
+
+
+    
+    <!-- you can use div's or ul li -->
+    <!-- for the example let's use div's -->
+
+
+<div class="masonry">
+
+  <div class="brick"> <img src="assets/img/ego/cel_1.jpg">
+         <div class="hvrbox-layer_top"><div class="hvrbox-text"><h3>Celine</h3>
+        <p>Céline is a French ready-to-wear and leather luxury goods brand that has been owned by LVMH group since 1996. It was founded in 1945 by Céline Vipiana. Since November 2015, the headquarters are located at 16 rue Vivienne in the 2nd arrondissement of Paris at the Hôtel Colbert de Torcy, which has French Historic Monument classification.[1] Marco Gobbetti is the president and the chief executive officer, and the creative director is Phoebe Philo.</p></div></div></div>
+
+  <div class="brick"><img src="assets/img/ego/cel_3.jpg">
+        <h3>Marni</h3>
+        </div>
+
+  <div class="brick"> <img src="assets/img/ego/cel_4.jpg">
+         </div>
+
+  <div class="brick"> <img src="assets/img/ego/cel_7.jpg">
+        </div>
+
+  <div class="brick"> <img src="assets/img/ego/cel_6.jpg">
+        
+        <h3>Lemaire</h3>
+        <p>Each season, Lemaire presents qualitative men’s and women’s collections with attentive details designed for everyday life. The vestiaire consists of realistic clothing and singular pieces influenced by the cosmopolitan streets of yesterday and today Paris. Lemaire is a collective, independent project led by Christophe Lemaire and Sarah-Linh Tran, bringing together a team that is united by a shared work philosophy, with clothing at its core. The collections are designed and developed in the Marais district of Paris nearby the 28 rue de Poitou historic shop. </p></div>
+
+  <div class="brick"> <img src="assets/img/ego/cel_5.jpg">
+        </div> 
+
+      <div class="brick"> <img src="assets/img/ego/lm_w_1.jpg">
+        <h3>Lemaire</h3>
+        <p>Each season, Lemaire presents qualitative men’s and women’s collections with attentive details designed for everyday life. The vestiaire consists of realistic clothing and singular pieces influenced by the cosmopolitan streets of yesterday and today Paris. Lemaire is a collective, independent project led by Christophe Lemaire and Sarah-Linh Tran, bringing together a team that is united by a shared work philosophy, with clothing at its core. The collections are designed and developed in the Marais district of Paris nearby the 28 rue de Poitou historic shop. </p> </div> 
+        <div class="brick"> <img src="assets/img/ego/lm_w_2.jpg">
+        <div class="hvrbox-layer_top"><div class="hvrbox-text"><h3>Lemaire</h3>
+        <p>Each season, Lemaire presents qualitative men’s and women’s collections with attentive details designed for everyday life. The vestiaire consists of realistic clothing and singular pieces influenced by the cosmopolitan streets of yesterday and today Paris.</p> </div></div></div> 
+
+
+
+</div>
+
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> 
+<script src="assets/js/jquery.masonry.js"></script> 
+<script type="text/javascript">
+      $(document).ready(function() {
+        $(".masonry").Masonry();
+      });
+    </script>
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+</body>
+

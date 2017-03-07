@@ -1,0 +1,79 @@
+
+
+
+#link{
+
+  font-size: px;
+  width: 10%;
+  text-align: right;
+  vertical-align: top;
+  float: left;
+  display: inline-block;
+  font-weight: 300;
+  margin-right: 70px;
+  margin-left: 80px;
+ 
+}
+
+
+html{
+    background-color: black  ;
+}
+
+body {background-color: black;
+      margin-top: 50px;
+      
+          }
+
+ a  {
+    font-family: 'overpass mono', monospace;
+    font-size: 11px;
+    color: white;
+    text-decoration: none;
+
+}
+
+header { font-family: 'overpass mono', monospace;
+
+font-weight: 400;
+
+font-size: 16px;
+color: white;
+
+ margin-left: 50px; 
+ margin-bottom: 40px;}
+
+
+
+
+
+
+
+#videosList {
+  display: inline-block; 
+ width:900px;
+ height:500px;
+  overflow: hidden;
+}
+
+.video {
+  display: inline-block;
+  background-image: url('img/vete_back.jpg');  
+  height: 100%;
+  width: 100%;
+  margin-bottom: 50px;
+  position: relative;
+ 
+}
+
+/* Hide Play button + controls on iOS */
+video::-webkit-media-controls {
+    display:none !important;
+}
+
+
+#thevideo {
+  display: none;
+}
+
+

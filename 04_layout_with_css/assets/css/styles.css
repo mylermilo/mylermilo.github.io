@@ -1,0 +1,156 @@
+
+* {
+     
+    box-sizing: border-box;
+
+}
+
+body {  background-color: lemonchiffon;
+
+       padding-top: 100px; }
+
+
+
+main {font-size: 0;
+
+      width: 100%;
+      
+      margin: auto;
+     
+
+}
+
+
+h1 {font-weight:100;
+
+    font-size: 54px;
+
+
+    margin-left: 10px;
+}
+
+
+
+nav { position: fixed;
+      top: 10px;
+      left: 20px;
+      width: 400px;
+      
+}
+
+nav a {
+
+       background: lightpink;
+       color: black;
+       padding: 10px;
+       display: inline-block;
+       border: 1px solid black; 
+       margin-bottom: 4px;
+       transition: background-color 0.5s, padding 1s;
+
+
+}
+
+
+nav a:hover { background-color: salmon; 
+              transition: property speed;
+              padding: 20px;
+
+}
+
+
+
+
+/*column declaration*/
+
+
+.col { background-color: lightblue; 
+
+      display: inline-block;
+
+      font-size: 20px;
+
+      margin: 0px 10px 20px;
+
+
+      border-top: 1px solid black;
+
+      vertical-align: top;
+
+}
+
+
+
+
+
+
+.col img, .col iframe { width: 100%;
+
+                       vertical-align: top; 
+ }
+
+.col iframe { height: 300px; }
+
+
+
+.col-nest{font-size: 0;
+
+           background-color: lightpink;
+
+           border:2;    
+}
+
+
+
+.col-1of6 { 
+
+      width: calc(16.666% - 20px);
+
+      }
+
+.col-2of6 {
+
+
+      width: calc(33.333% - 20px);
+}
+
+
+
+.col-3of6 {
+
+
+      width: calc(50% - 20px);
+}
+
+.col-4of6 { width: calc(66.666% - 20px);
+
+
+}
+
+
+.col-5of6 { width: calc(83.333% - 20px);
+
+      
+}
+
+
+.col-6of6 { width: calc(100% - 20px);
+
+      
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

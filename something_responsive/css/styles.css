@@ -1,0 +1,405 @@
+* { box-sizing: border-box; }
+
+body { margin: 4px; 
+       margin-right: 0;
+       max-height:762px;
+
+}
+
+header { position: fixed;
+         left: 20px; 
+         bottom: 10px;
+
+ }
+
+
+
+
+
+.prompt, .label { display: inline-block; 
+                  background-color: white;
+                  padding: 10px;
+                  border: 1px solid black;
+                  
+
+              }
+
+
+.prompt_1 {animation-name: pulse;
+         animation-duration: 2s;
+         animation-iteration-count: infinite; }
+
+.prompt_2 {animation-name: pulse;
+         animation-duration: 2s;
+         animation-iteration-count: infinite; }
+
+
+.prompt_3 {animation-name: pulse;
+         animation-duration: 2s;
+         animation-iteration-count: infinite; }
+
+
+
+
+
+.lable.active { background-color: lightpink;
+
+    }
+
+.lable.inactive { background-color: lightblue;}
+
+
+.block {
+
+        display: inline-block;
+        border: 1px solid black; 
+        width: calc(10% - 4px);
+        padding-top: calc(10% - 4px);
+}
+
+.black { background-color: black;}
+
+
+
+ 
+
+ .yellow { background-color: yellow; }
+
+
+
+/*animation*/ 
+
+@keyframes pulse {  
+
+	0% { opacity: 0 }
+	50% { opacity: 1 }
+	100% { opacity: 0 }
+
+
+}
+
+
+
+
+
+
+@media (min-width: 481px) and (max-width: 992px) {
+
+      .block  { width: calc(10% - 4px); 
+
+               padding-top: calc(10% - 4px);
+               display: none;
+
+      }
+
+
+	.prompt { display: none; }
+
+
+       }
+
+
+
+
+@media (min-width: 992px) {
+
+      .block  { width: calc(5% - 4px); 
+
+               padding-top: calc(5% - 4px);
+
+      }
+
+
+
+                  }
+
+
+.image {
+  display: none;
+  width: 60%;
+  height: 60%;
+
+}
+
+.image img {
+  width: 100%;
+}
+
+@media (max-width: 400px) {
+  .a {
+    display: block;
+
+
+  }
+
+  .prompt_1 { display: block; 
+              font-family: "futura";
+              font-size: 30px;
+
+
+  }
+
+  .prompt_3{ display: none; }
+  .prompt_2 { display: none; }
+
+}
+
+@media (min-width: 401px) and (max-width: 450px){
+  .b {
+    display: block;
+  }
+  .prompt_1 { display: block; 
+              font-family: "futura";
+              font-size: 30px;
+
+   
+  }
+
+ .prompt_3{ display: none; }
+  .prompt_2 { display: none; }
+
+
+}
+
+@media (min-width: 451px) and (max-width: 500px) {
+  .c {
+    display: block;
+  }
+   .prompt_1 { display: block; 
+              font-family: "futura";
+              font-size: 30px;
+
+
+  }
+ 
+ .prompt_3{ display: none; }
+  .prompt_2 { display: none; }
+
+
+}
+
+@media (min-width: 501px) and (max-width: 550px) {
+  .d {
+    display: block;
+  }
+    .prompt_1 { display: block; 
+              font-family: "futura";
+              font-size: 30px;
+  }
+ .prompt_3{ display: none; }
+  .prompt_2 { display: none; }
+
+}
+
+@media (min-width: 551px) and (max-width: 600px) {
+  .e {
+    display: block;
+  }
+  .prompt_1 { display: block; 
+              font-family: "futura";
+              font-size: 30px;
+  }
+  .prompt_3{ display: none; }
+  .prompt_2 { display: none; }
+
+}
+
+@media (min-width: 601px) and (max-width: 650px) {
+  .f {
+    display: block;
+  }
+
+   .prompt_1 { display: block; 
+              font-family: "futura";
+              font-size: 30px;
+  }
+
+  .prompt_3{ display: none; }
+  .prompt_2 { display: none; }
+
+
+}
+
+@media (min-width: 651px) and (max-width: 700px) {
+  .g {
+    display: block;
+  }
+
+  .prompt_2 { display: block; 
+              font-family: "futura";
+              font-size: 50px;
+              color:red;
+  }
+  
+  .prompt_3{ display: none; }
+  .prompt_1 { display: none; }
+
+
+}
+
+
+@media (min-width: 701px) and (max-width: 750px) {
+  .h {
+    display: block;
+  }
+
+  .prompt_2 { display: block; 
+              font-family: "futura";
+              font-size: 50px;
+              color:red;
+  }
+  
+  .prompt_3{ display: none; }
+  .prompt_1 { display: none; }
+
+
+}
+
+
+@media (min-width: 751px) and (max-width: 800px) {
+  .i {
+    display: block;
+  }
+
+  .prompt_2 { display: block; 
+              font-family: "futura";
+              font-size: 50px;
+              color:red;
+  }
+  
+  .prompt_3{ display: none; }
+  .prompt_1 { display: none; }
+
+
+}
+
+
+@media (min-width: 801px) and (max-width: 850px) {
+  .j {
+    display: block;
+  }
+  
+  .prompt_2 { display: block; 
+              font-family: "futura";
+              font-size: 50px;
+              color:red;
+  }
+  
+  .prompt_3{ display: none; }
+  .prompt_1 { display: none; }
+
+
+
+}
+
+@media (min-width: 851px) and (max-width: 900px) {
+  .k {
+    display: block;
+  }
+  .prompt_2 { display: block; 
+              font-family: "futura";
+              font-size: 50px;
+              color:red;
+  }
+  
+  .prompt_3{ display: none; }
+  .prompt_1 { display: none; }
+
+
+}
+
+@media (min-width: 901px) and (max-width: 950px) {
+  .l {
+    display: block;
+  }
+  .prompt_2 { display: block; 
+              font-family: "futura";
+              font-size: 50px;
+              color:red;
+  }
+  
+  .prompt_3{ display: none; }
+  .prompt_1 { display: none; }
+
+
+}
+
+@media (min-width: 951px) and (max-width: 1500px) {
+  .m {
+    display: block;
+  }
+
+  
+  .prompt_3 { display: block; 
+              font-family: "futura";
+              font-size: 70px;
+              color:white;
+  }
+  
+  .prompt_2{ display: none; }
+  .prompt_1 { display: none; }
+
+
+
+}
+
+
+         
+         @-webkit-keyframes shake {
+            0%, 100% {-webkit-transform: translateX(0);} 
+            10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-10px);} 
+            20%, 40%, 60%, 80% {-webkit-transform: translateX(10px);} 
+         }
+         
+         @keyframes shake { 
+            0%, 100% {transform: translateX(0);} 
+            10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);} 
+            20%, 40%, 60%, 80% {transform: translateX(10px);} 
+         }
+         
+         .shake { 
+            -webkit-animation-name: shake; 
+            animation-name: shake; 
+         }
+
+
+
+         
+         @-webkit-keyframes vib {
+            0%, 100% {-webkit-transform: translateX(0);} 
+            10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-10px);} 
+            20%, 40%, 60%, 80% {-webkit-transform: translateX(10px);} 
+         }
+         
+         @keyframes vib { 
+            0%, 100% {transform: translateX(0);} 
+            10%, 30%, 50%, 70%, 90% {transform: translateX(-30px);} 
+            20%, 40%, 60%, 80% {transform: translateX(50px);} 
+         }
+         
+         .vib { 
+            -webkit-animation-name: vib; 
+            animation-name: vib; 
+         }
+
+
+
+
+
+
+            @-webkit-keyframes vibb {
+            0%, 100% {-webkit-transform: translateX(0);} 
+            10%, 30%, 50%, 70%, 90% {-webkit-transform: translateX(-10px);} 
+            20%, 40%, 60%, 80% {-webkit-transform: translateX(130px);} 
+         }
+         
+         @keyframes vibb { 
+            0%, 100% {transform: translateX(0);} 
+            10%, 30%, 50%, 70%, 90% {transform: translateX(-30px);} 
+            20%, 40%, 60%, 80% {transform: translateX(130px);} 
+         }
+         
+         .vib { 
+            -webkit-animation-name: vib; 
+            animation-name: vibb; 
+         }

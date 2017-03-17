@@ -1,0 +1,32 @@
+html{ margin: 10px;
+      padding: 20px;
+      margin-right: 100px; 
+ }
+
+
+h1 { font-family: "minimal";
+     font-weight: 500;
+      font-size: 600%; 
+ }
+
+ h2{ font-family: "minimal";
+
+     font-weight: 100;
+      font-size: 100%;  }
+
+ p {font-family: "ElroNet monospace";
+     font-weight: 100;
+     font-size: 70%;
+     float: right;
+        min-height: 1px; 
+        width: 32.66%;
+
+ }
+img {width: 700px;
+     height: 600px;
+
+
+
+}
+
+

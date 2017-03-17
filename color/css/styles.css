@@ -13,32 +13,43 @@
 
 
 .rec_1 {
-  height: 550px;
-  width: 550px;
+  height: 500px;
+  width: 400px;
   position:absolute;
-  z-index:1;
-   background: #A38EF7;
- 
+  background: #A38EF7;
+  margin-left: 280px; 
+  margin-top: 70px;
+  opacity: 0.9;
 }
 
 .rec_2 {
-  height: 550px;
-  width: 550px;
+  height: 400px;
+  width: 450px;
   position:absolute;
-  z-index:2;
   background: #F7F08E;
+  margin-left: 380px; 
+  opacity:0.7;
+  margin-top: 90px;
   
 }
 
 .rec_3 {
-  height: 550px;
-  width: 550px;
+  height: 600px;
+  width: 450px;
   position:absolute;
-  z-index:3;
   background: #F78EE6;
- 
+  margin-left: 530px;
+  opacity:0.6; 
 }
 
+.rec_4 {
+  height: 300px;
+  width: 150px;
+  position:absolute;
+  background: #F78E95;
+  margin-left: 530px;
+  opacity:0.9; 
+}
 
 
 

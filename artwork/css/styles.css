@@ -1,0 +1,146 @@
+.rec {
+  height: 300px;
+  width: 300px;
+  
+  border-top: 100px solid #A38EF7;
+  border-bottom: 100px solid #F7F08E;
+  border-right: 100px solid #F78EE6;
+  border-left: 100px solid #F78E95;
+  
+  margin: 100px auto;
+  transition: all .5s linear;
+}
+
+
+.rec_1 {
+  height: 70px;
+  width: 70px;
+  position:absolute;
+  background: #5D6D7E  ;
+  margin-left: 290px; 
+  margin-top: 70px;
+  opacity: 0.9;
+  -webkit-transform: rotate(60deg); 
+  transform: rotate(60deg);
+  z-index:20;
+}
+
+.rec_2 {
+  height: 130px;
+  width: 130px;
+  position:absolute;
+  background: #5D6D7E;
+  margin-left: 320px; 
+  opacity:0.7;
+  margin-top: 150px;
+  -webkit-transform: rotate(60deg); 
+  transform: rotate(60deg);
+  z-index:30;
+}
+
+.rec_3 {
+  height: 190px;
+  width: 190px;
+  position:absolute;
+  background: #273746 ;
+  margin-left: 390px;
+  margin-top: 280px;
+  opacity:0.6; 
+  -webkit-transform: rotate(60deg); 
+  transform: rotate(60deg);
+  z-index:40;
+
+}
+
+.rec_4 {
+  height: 280px;
+  width: 280px;
+  position:absolute;
+  background: #707B7C;
+  margin-left: 480px;
+  margin-top: 460px;
+  opacity:0.9; 
+  -webkit-transform: rotate(60deg); 
+  transform: rotate(60deg);
+  z-index:50;
+
+}
+
+.rec_5 {
+  height: 750px;
+  width: 650px;
+  position:absolute;
+  background: #ECAE15;
+  margin-left: 240px;
+  margin-top: 40px;
+  opacity:0.9; 
+}
+
+
+
+
+
+
+
+
+ a { font-family: 'overpass mono', monospace;
+    font-size: 12px; }
+
+img { margin-left: 240px; }
+
+
+
+
+html{
+    background-color: white  ;
+}
+
+body {background-color: white;
+      margin-top: 70px;
+      
+          }
+
+ p  {
+   font-family: "Helvetica Neue Light", sans-serif; 
+                font-weight: 100;
+    font-size: 14px;
+    color: black;
+    text-decoration: none;
+    margin-left: 230px;
+    margin-right: 330px;
+
+}
+
+li  {
+    font-family: 'overpass mono', monospace;
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    margin-left: 255px;
+
+}
+
+
+
+
+header { font-family: "Helvetica Neue Light", sans-serif; 
+                font-weight: 900;
+font-size: 50px;
+color: black;
+
+ margin-left: 230px;
+ margin-right: 180px; 
+ margin-bottom: 40px;
+display: inline-block;
+
+}
+
+.text { font-family: "Helvetica Neue Light", sans-serif; 
+                font-weight: 900; 
+                font-size: 13px; }
+
+
+
+
+.hello { margin-right: 250px; }
+

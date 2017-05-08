@@ -1,0 +1,63 @@
+
+@media (max-width: 640px) {
+	/*.Home-splitterLink, .Home-splitter--textright .Home-splitterLink, .Home-splitter--textcenter .Home-splitterLink {
+		width: 100px;
+		height: 100px;
+		padding: 42px 2px;
+		top: auto;
+		bottom: 10%;
+		left: 4.3%;
+		right: auto;
+	}	
+	.Home-splitterLink--second, .Home-splitter--textright .Home-splitterLink--second, .Home-splitter--textcenter .Home-splitterLink--second {
+		left: auto;
+		right: 4.3%;
+	}
+	.Home-splitterContent, .Home-splitter--textright .Home-splitterContent, .Home-splitter--textcenter .Home-splitterContent {
+		left: 4.3%;
+		width: 100%;
+		top: 15%;
+		right: auto;
+	}*/
+
+	.Page--brands .Page-brandListsList {
+		padding-bottom: 2.6em;
+	}
+	.Page--brands .Page-brandLists h2 {
+		margin-bottom: 0.5em;
+	}
+}
+
+/* height responsive */
+@media (max-height: 800px) and (min-height: 600px) {
+	.Header-navigation {
+		padding-top: 170px;
+	}
+	.Header-navigation > ul > li {
+		margin-bottom: 7px;
+	}
+	.Header-navigation > ul > li > a {
+		padding: 10px 5px;
+	}
+
+}
+
+@media (max-height: 600px) {
+	.Header-navigation {
+		padding-top: 110px;
+	}
+	.Header-navigation > ul > li {
+		margin-bottom: 7px;
+		border-width: 1px;
+	}
+	.Header-navigation > ul > li > a {
+		padding: 6px 5px;
+	}
+	.Header-navigation ul ul li {
+		padding-bottom: 2px;
+		margin-bottom: 2px;
+	}
+	.Header-navigation ul ul li:last-child {
+		padding-bottom: 6px;
+	}
+}

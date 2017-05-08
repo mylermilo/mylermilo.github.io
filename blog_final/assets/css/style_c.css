@@ -1,0 +1,294 @@
+
+ p  {
+     font-family: "Helvetica Neue Light", sans-serif; 
+   font-weight: 100;
+    font-size: 1px;
+    color: black;
+    text-decoration: none;
+
+}
+
+
+.post-b body { 
+
+ width:1500px;
+
+  margin-left: 200px; }
+
+
+
+
+
+.post header { 
+
+  position: absolute;
+
+  font-family: "Helvetica Neue Light", sans-serif; 
+   font-weight: 900;
+  font-size: 80px;
+  width: 300px;
+  height: 400px;
+  float: left;
+ top: 500px;
+ margin-left: 200px;
+
+
+}
+
+
+
+.post-r header { 
+
+
+  display: inline-block;
+  font-family: "Helvetica Neue Light", sans-serif; 
+   font-weight: 900;
+  font-size: 60px;
+  width: 300px;
+  height: 400px;
+  float: left;
+ top: 500px;
+ margin-left: 230px;
+
+
+}
+
+
+
+.post-h header { 
+
+
+  display: inline-block;
+  font-family: "Helvetica Neue Light", sans-serif; 
+   font-weight: 900;
+  font-size: 80px;
+  width: 300px;
+  height: 400px;
+  float: left;
+ top: 500px;
+ margin-left: 230px;
+
+
+}
+
+
+.line {border: 0; border-top: 1px solid black; 
+      width: 900px;
+      margin-left: 190px;
+      margin-top:30px;
+}
+
+
+.rick img { width: 500px;
+ height: 700px; 
+ display: inline-block;
+ float: left;
+  margin-left: 200px;
+  margin-top: 70px;
+
+}
+
+.raf_1 {
+  background-image: url('raf_7.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:910px;
+  height:450px;
+  display: inline-block;
+
+  margin-left: 200px;
+  margin-top: 90px;
+ -webkit-transition: background 0.3s;
+          transition: background 0.3s;
+}
+
+/* facebook */
+.raf_1.mono {
+  background-position: 0 0;
+}
+
+
+.raf_1.mono:hover {
+  background-color: #3b5998;
+  background-position: 0 -650px;
+}
+
+.raf_2 {
+  background-image: url('raf_2.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:910px;
+  height:450px;
+  display: inline-block;
+
+  margin-left: 200px;
+  margin-top: 90px;
+ -webkit-transition: background 0.3s;
+          transition: background 0.3s;
+}
+
+/* facebook */
+.raf_2.mono {
+  background-position: 0 0;
+}
+
+
+.raf_2.mono:hover {
+  background-color: #3b5998;
+  background-position: 0 -650px;
+}
+
+
+
+
+
+
+
+.shoes {
+  background-image: url('c_6.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:910px;
+  height:550px;
+  display: inline-block;
+
+  margin-left: 200px;
+  margin-top: 90px;
+ -webkit-transition: background 0.3s;
+          transition: background 0.3s;
+}
+
+/* facebook */
+.shoes.mono {
+  background-position: 0 0;
+}
+
+
+.shoes.mono:hover {
+  background-color: #3b5998;
+  background-position: 0 -550px;
+}
+
+
+
+
+.post-p p {color: black;
+
+  font-family: "Helvetica Neue Light", sans-serif; 
+  font-weight: 100;
+  font-size: 13px;
+  display: inline-block;
+  width: 300px;
+  padding:10px;
+  margin-top: 80px;
+  margin-left: 50px;
+
+
+}
+
+
+.post-s p{color: black;
+
+  font-family: "Helvetica Neue Light", sans-serif; 
+  font-weight: 100;
+  font-size: 13px;
+  display: inline-block;
+  width: 500px;
+  padding:10px;
+ 
+
+}
+
+
+
+
+.post-r p{ color: black;
+
+  font-family: "Helvetica Neue Light", sans-serif; 
+  font-weight: 100;
+  font-size: 13px;
+  display: inline-block;
+  width: 300px; 
+  padding:10px; 
+  margin-left: 230px;
+
+}
+
+
+
+
+.p2 p{ 
+  font-family: "Helvetica Neue Light", sans-serif; 
+  font-weight: 100;
+  font-size: 13px;
+  margin-left: 200px;
+  width: 1000px; }
+
+
+
+.demo { width: 100%; } 
+
+.container {
+  max-width: 600px;
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+.container div {
+  background-color: white;
+  width: 100%;
+  display: inline-block;
+  display: none;
+}
+.container img {
+  width: 100%;
+  height: auto;
+}
+
+button {
+  position: absolute;
+}
+
+.next {
+  right: px;
+}
+
+.prev {
+  left: 5px;
+}
+
+
+
+
+.icon {
+  display: inline-block;
+  vertical-align: top;
+  overflow: hidden;
+  margin: 4px;
+  width: 96px;
+  height: 96px;
+  font-size: 0;
+  text-indent: -9999px;
+}
+
+
+
+.icon-mono {
+  background: url("../img/icons1.png");
+  background-image: url("../img/icons1.svg"), none;
+  background-color: #595959;
+  -webkit-transition: background 0.3s;
+          transition: background 0.3s;
+}
+
+/* facebook */
+.icon-mono.facebook {
+  background-position: 0 0;
+}
+
+
+.icon-mono.facebook:hover {
+  background-color: #3b5998;
+  background-position: 0 -96px;
+}

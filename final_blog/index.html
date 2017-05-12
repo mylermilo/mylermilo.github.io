@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  
+  
+  
+      <link rel="stylesheet" href="assets/css/style_a.css">
+
+  
+</head>
+
+<body>
+
+
+
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script>
+var fadeDelay = 0.2;
+var viewHeight = $(window).height();
+
+$(window).scroll( function(){ 
+	console.log('scrolling');
+	var distance =  $('#slide2').offset().top - $(window).scrollTop();
+  $('#slide1').css('opacity', distance / viewHeight + fadeDelay)
+});</script>
+
+
+
+<div id="container">
+  <div id="slide1" class="slide">
+   <div class="title"><a href="main.html">DARKWEAR</a><p>Darkwear simply embraces style of fashion with black or other dark colors.</p></div>
+  </div>
+  <div id="slide2" class="slide">
+    <div class="title"><a href="main_2.html">COLORS</a><p>It deals with the subject of colored clothing or graphic elements</p><</div>
+  </div>
+</div>
+
+
+
+</body>
+</html>

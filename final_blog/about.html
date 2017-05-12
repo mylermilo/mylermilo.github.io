@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>About</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+
+  
+      <style>
+      /* NOTE: The styles were added inline because Prefixfree needs access to your styles and they must be inlined if they are on local disk! */
+      @import url(http://fonts.googleapis.com/css?family=Roboto:100);
+
+body::-webkit-scrollbar { display:none; }
+
+body {
+  background:black;
+  font-family:'HelveticaNeue-Light', san-serif;
+  color:#fff;
+}
+
+.content {
+  position:fixed;
+  left:50%;
+  margin-left:-250px;
+  top:50px;
+  width:500px;
+}
+
+.intro {
+  width:100%;
+  text-align:center;
+  font-size:40px;
+  margin:0px 0 20px;
+}
+
+.text {
+  font-family: helvetica neue, san-serif;
+  font-weight:900;
+  font-size:22px;
+  padding-left:2%;
+  height:30px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+#bitcoin {
+  width:30px;
+}
+
+.credit {
+  margin-top:14px;
+  font-size:14px;
+  font-style:italic;
+}
+
+.arrow {
+  text-align:center;
+  margin-top:80px;
+  font-size:46px;
+  backface-visiblilty:hidden;
+}
+    </style>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+
+</head>
+
+<body>
+  <div class="content">
+  <div class="intro"
+       data-0="transform:translateY(65px);"
+       data-500="transform:translateY(0px);">Please scroll if you want to read the text below.</div>
+  <div class="arrow"
+       data-0="opacity:1; display:block; transform:translateY(-10px);"
+       data-400="opacity:0; display:none; transform:translateY(-45px);">▾</div>
+  <p class="text"
+       data-500="width:0%; opacity:0;"
+       data-1500="width:98%; opacity:1;">
+  This blog is about fashion that I am interested in.</p>
+  <p class="text"
+       data-1000="width:0%; opacity:0;"
+       data-2500="width:98%; opacity:1;">
+  I am a student majoring in communication design in NYC</p>
+  <p class="text"
+       data-2000="width:0%; opacity:0;"
+       data-3500="width:98%; opacity:1;">
+  I want to work in fashion industry.</p>
+  <p class="text"
+       data-3000="width:0%; opacity:0;"
+       data-4500="width:98%; opacity:1;">
+  If you have any question, please do not hesitate to contact me</p>
+  <p class="text credit"
+       data-4000="width:0%; opacity:0;"
+       data-5500="width:98%; opacity:1;">
+  lvko58@naver.com</p>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/skrollr/0.6.11/skrollr.min.js'></script>
+
+    <script src="assets/js/index.js"></script>
+
+</body>
+</html>

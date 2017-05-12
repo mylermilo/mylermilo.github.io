@@ -1,0 +1,13 @@
+#container {
+    background-color:black;
+    width:1500px;   
+    height:1200px;
+    overflow:hidden;
+
+}
+div {position:fixed;}
+
+.bg {
+  width:100%; 
+  height:1200px; 
+   }

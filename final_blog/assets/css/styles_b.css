@@ -1,0 +1,298 @@
+
+
+
+.icon-bar a {
+   height:250px;
+    display: block;
+    text-align: center;
+    
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+    padding-top: 100px;
+
+   
+}
+
+.jacket {background-image:url("c_1.jpg");
+
+       width: 1200px;
+        margin-left: 30px;
+
+  }
+
+.jacket a { font-family: helvetica neue, san-serif;
+
+ text-decoration: none;
+
+  font-weight: 900;
+  font-size: 40px;
+ }
+
+
+
+ p  {
+     font-family: "Helvetica Neue Light", sans-serif; 
+   font-weight: 100;
+    font-size: 1px;
+    color: black;
+    text-decoration: none;
+
+}
+
+
+.post-b body { 
+
+ width:1500px;
+
+  margin-left: 20px; }
+
+.post header { font-family: "Helvetica Neue Light", sans-serif; 
+   font-weight: 900;
+  font-size: 80px;
+  width: 100px;
+  float: left;
+   margin-top: 450px;
+  margin-left: 200px;
+
+
+}
+
+.rick img { width: 400px;
+ height: 400px; 
+ display: inline-block;
+ float: left;
+
+
+}
+
+.post-p p {color: black;
+
+font-family: "Helvetica Neue Light", sans-serif; 
+   font-weight: 100;
+  font-size: 13px;
+ display: inline-block;
+ width: 400px;
+ padding:10px;
+ margin-top: 80px;
+  margin-left: 80px;
+
+}
+
+
+
+
+* {
+  box-sizing: border-box;}
+
+body {
+  background-color: white;
+}
+ul, li {
+  margin: 0;
+  padding: 10px;
+  list-style: none;
+}
+img {
+  width: 85%;
+  height: 80%;
+}
+
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+.copy h3 {  font-family: "Helvetica Neue Light", sans-serif; 
+            font-weight: 900;
+            font-size: 33px; }
+
+.container a {text-decoration: none;
+                color: black;
+                height:500px;
+  }
+
+.copy h4 {   font-family: "Helvetica Neue Light", sans-serif; 
+             font-weight: 500;
+             font-size: 16px;
+             margin-left: 260px;
+
+
+ }
+
+.copy p {  
+  font-family: "Helvetica Neue Light", sans-serif; 
+  font-weight: 100;
+  font-size: 13px;
+  width: 400px;
+}
+
+
+
+.clear {
+  clear: both;
+}
+
+@media (min-width: 1100px) {
+
+  .container {
+
+    width: 1000px;
+    margin: 0 auto;
+  }
+  .container:after {
+    content: "";
+    clear: both;
+    width: 100%;
+  }
+
+  .container a {text-decoration: none;
+                color: black;
+  }
+
+
+  .col4 {
+  padding-top:50px;
+    width: 475px;
+    display: inline-block;
+    margin: 0 10px;
+  }
+
+  .image {
+    text-align: center;
+    width: 480px;
+  }
+
+  .copy { margin-left: 25px; }
+
+ .copy h3 {  
+  font-family: "Helvetica Neue Light", sans-serif; 
+  font-weight: 900;
+  font-size: 33px;
+}
+
+.copy h4 {   font-family: "Helvetica Neue Light", sans-serif; 
+             font-weight: 500;
+             font-size: 16px;
+             margin-left: 260px;
+
+
+ }
+
+.copy p {  
+  font-family: "Helvetica Neue Light", sans-serif; 
+  font-weight: 100;
+  font-size: 13px;
+  width: 400px;
+}
+
+}
+
+
+@media (min-width: 600px) and (max-width: 1023px) {
+  .container {
+    width: 96%;
+    margin: 0 2%;
+  }
+
+   .container a {text-decoration: none;
+                color: black;
+  }
+
+  .col4 {
+    padding: 20px 0;
+    border-bottom: 1px solid #CCC;
+
+  }
+  .col4:after {
+    content: "";
+    width: 100%;
+  }
+
+  .image {
+    float: left;
+    width: 40%;
+  }
+
+  .copy {
+    float: right;
+    width: 56%;
+  }
+
+  .copy h3 {  
+  font-family: "Helvetica Neue Light", sans-serif; 
+  font-weight: 900;
+  font-size: 40px;
+  width: 480;
+
+
+}
+
+.copy h4 {   font-family: "Helvetica Neue Light", sans-serif; 
+             font-weight: 400;
+             font-size: 18px;
+
+
+ }
+
+
+.copy p {  
+  font-family: "Helvetica Neue Light", sans-serif; 
+  font-weight: 100;
+  font-size: 13px;
+}
+
+
+}
+
+@media (max-width: 599px) {
+  .container {
+    width: 96%;
+    margin: 0 2%;
+  }
+
+   .container a {text-decoration: none;
+                color: black;
+  }
+
+
+  .col4 {
+    padding: 10px 0;
+    border-bottom: 1px solid #CCC;
+  }
+
+  .image, .copy {
+    text-align: center;
+    font-family: "Helvetica Neue Light", sans-serif; 
+  font-weight: 900;
+  font-size: 30px;
+  }
+
+.copy p {  
+  font-family: "Helvetica Neue Light", sans-serif; 
+  font-weight: 100;
+  font-size: 13px;
+
+}
+
+
+
+}
+
+.slide { width: 1000px; 
+         height: 200px;
+         background-color: black;
+         margin-left: 200px;
+        
+}
+
+.line {border: 0; border-top: 0.5px solid grey; 
+      width: 2000px;
+      margin-top:30px;
+}
+
+

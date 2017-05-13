@@ -770,19 +770,9 @@ background-image: url('buy_1.jpg');
   height:350px;
   display: inline-block;
   margin: 30px;
- -webkit-transition: background 0.3s;
-          transition: background 0.3s;
+
 }
 
-/* facebook */
-.raf_1.mono {
-  background-position: 0 0;
-}
-
-
-.raf_1.mono:hover {
-  background-image: url('buy_5.jpg');
-}
 
 .raf_2 {
   background-image: url('raf_2.jpg');
@@ -792,20 +782,11 @@ background-image: url('buy_1.jpg');
   height:350px;
   display: inline-block;
   margin:30px;
- -webkit-transition: background 0.3s;
-          transition: background 0.3s;
-}
 
-/* facebook */
-.raf_2.mono {
-  background-position: 0 0;
 }
 
 
-.raf_2.mono:hover {
-  background-color: #3b5998;
-  background-position: 0 -650px;
-}
+
 
 .rob_1 {  background-image: url('rob_5.jpg');
   background-size:cover;

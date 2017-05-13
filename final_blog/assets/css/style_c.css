@@ -199,16 +199,6 @@ background-image: url('buy_3.jpg');
 }
 
 /* facebook */
-.raf_1.mono {
-  background-position: 0 0;
-}
-
-
-.raf_1.mono:hover {
-  background-color: #3b5998;
-  background-position: 0 -650px;
-}
-
 .raf_2 {
   background-image: url('raf_2.jpg');
   background-size:cover;
@@ -732,8 +722,7 @@ background-image: url('buy_1.jpg');
             width: 420px;
             height: 560px;
            top: 500px;
-        
-            margin-top: 50px;
+           margin:30px;
            display: inline-block;
            float: left;
 
@@ -746,7 +735,7 @@ background-image: url('buy_1.jpg');
             width: 500px;
             height: 300px;
             top: 500px;
-            margin-top: 50px;
+            margin:30px;
             display: inline-block;
       
      
@@ -759,8 +748,7 @@ background-image: url('buy_1.jpg');
             width: 500px;
             height: 300px;
             top: 500px;
-       
-            margin-top: 50px;
+            margin:30px;
             display: inline-block;
       
      
@@ -845,7 +833,7 @@ background-image: url('buy_1.jpg');
 }
 
 .shoes-1.mono {
-  background-image: url('shoes_1.jpg');
+  background-image: url('r_31.jpg');
   background-size:cover;
   background-repeat:no-repeat;
   width:510px;
@@ -895,7 +883,7 @@ background-image: url('buy_1.jpg');
 
 
 
-.mar_2 {  background-image: url('mar_7.jpg');
+.mar_2.mono {  background-image: url('mar_7.jpg');
                background-size:cover;
                background-repeat:no-repeat;
                width:510px;

@@ -613,7 +613,7 @@ background-image: url('buy_1.jpg');
   
   font-family: "Helvetica Neue Light", sans-serif; 
    font-weight: 900;
-  font-size: 70px;
+  font-size: 65px;
   width: 70%;
   display: inline-block;
   margin-top: 30px;
@@ -631,7 +631,7 @@ background-image: url('buy_1.jpg');
   display: inline-block;
   font-family: "Helvetica Neue Light", sans-serif; 
    font-weight: 900;
-  font-size: 70px;
+  font-size: 65px;
   width: 300px;
   height: 400px;
   float: left;
@@ -648,7 +648,7 @@ background-image: url('buy_1.jpg');
   display: inline-block;
   font-family: "Helvetica Neue Light", sans-serif; 
    font-weight: 900;
-  font-size: 70px;
+  font-size: 65px;
   width: 300px;
   height: 400px;
   float: left;
@@ -666,11 +666,28 @@ background-image: url('buy_1.jpg');
   display: inline-block;
   font-family: "Helvetica Neue Light", sans-serif; 
    font-weight: 900;
-  font-size: 70px;
+  font-size: 60px;
   width: 300px;
   height: 300px;
   float: left;
   margin:30px;
+
+
+}
+
+
+.post-h-2 header { 
+
+
+  display: inline-block;
+  font-family: "Helvetica Neue Light", sans-serif; 
+   font-weight: 900;
+  font-size: 60px;
+ width: 300px;
+  height: 100px;
+  float: left;
+ top: 500px;
+ margin:20px;
 
 
 }
@@ -821,52 +838,46 @@ background-image: url('buy_1.jpg');
   background-image: url('shoes_1.jpg');
   background-size:cover;
   background-repeat:no-repeat;
-  width:910px;
-  height:550px;
+  width:510px;
+  height:350px;
   display: inline-block;
-
-  margin-left: 200px;
-  margin-top: 90px;
- -webkit-transition: background 0.3s;
-          transition: background 0.3s;
+  margin:40px;
 }
 
-/* facebook */
-.shoes.mono {
-  background-position: 0 0;
+.shoes-1.mono {
+  background-image: url('shoes_1.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:510px;
+  height:350px;
+  display: inline-block;
+  margin:40px;
 }
 
 
-.shoes.mono:hover {
- background-image: url('buy_2.jpg');
-}
 
 
 
 .vete_1.mono {  background-image: url('ve_1.jpg');
   background-size:cover;
   background-repeat:no-repeat;
-  width:910px;
-  height:550px;
+  width:510px;
+  height:350px;
   display: inline-block;
-
-  margin-left: 210px;
-  margin-top: 30px;
- -webkit-transition: background 0.3s;
-          transition: background 0.3s;}
+  margin: 30px;
+ }
 
 
           
 
 .vt img{ width: 350px; 
  height:500px; 
- margin-left: 200px;
- margin-top: 30px;
+ margin:30px;
 }
 
 .mar img {width:350px;
           height:450px; 
-          margin-top: 30px;
+          margin: 30px;
 
 
 }
@@ -877,7 +888,7 @@ background-image: url('buy_1.jpg');
            width:510px;
            height:350px;
           display: inline-block;
-          margin-top: 30px;
+          margin: 30px;
     
  }
 
@@ -890,27 +901,17 @@ background-image: url('buy_1.jpg');
                width:510px;
                height:350px;
                display: inline-block;
-                margin-top: 30px;
-              -webkit-transition: background 0.3s;
-              transition: background 0.3s;}
-
-.mar_2.mono {
-  background-position: 0 0;
-  display: none;
-}
+                margin: 30px;
+             }
 
 
-.mar_2.mono:hover {
-background-image: url('buy_1.jpg');
-  background-repeat:no-repeat;
-  display: none;
-   width:510px;
-}
 
-.raf_3 img { width:300px;
-          height:500px; 
+
+.raf_3 img { width:250px;
+          height:420px; 
           display: inline-block;
-          margin: 30px;
+          margin: 20px;
+          left:40px;
            }
 
 .raf_4 {
@@ -920,7 +921,7 @@ background-image: url('buy_1.jpg');
   width:510px;
   height:350px;
   display: inline-block;
-  margin-top: 20px;
+  margin: 20px;
 }
 
 
@@ -933,7 +934,7 @@ background-image: url('buy_1.jpg');
   width:510px;
   height:350px;
   display: inline-block;
-  margin-top: 20px;
+  margin: 20px;
 
 }
 
@@ -949,6 +950,61 @@ background-image: url('buy_1.jpg');
   
 }
 
+
+
+
+.bag_1 img { width:470px;
+          height:750px; 
+          
+          margin-left: 160px;
+          display: inline-block;
+
+
+                     }
+
+.bag_2.mono {
+  background-image: url('bag_1.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  width: 580px;
+  height: 350px;
+  display: inline-block;
+  margin:30px;
+
+}
+
+
+/* facebook */
+.bag_2.mono {
+  background-position: 0 0;
+}
+
+
+.bag_2.mono:hover {
+  background-color: #3b5998;
+  
+}
+
+.bag_3.mono {
+  background-image: url('bag_3.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  width: 580px;
+  height: 350px;
+  display: inline-block;
+  margin:30px;
+
+
+}
+.bag_3.mono {
+  background-position: 0 0;
+}
+
+
+.bag_3.mono:hover {
+  background-image:url('buy_4.jpg'); 
+  
+}
 
 
 
@@ -968,9 +1024,9 @@ background-image: url('buy_1.jpg');
 .post-p-1 p {  font-family: "Helvetica Neue Light", sans-serif; 
          font-weight: 100;
          font-size: 14px;
-         max-width: 910px;
+         width: 510px;
         display: inline-block;
-        margin-left: 200px;
+        margin:30px;
        line-height: 150%;
        float:left;  
        -webkit-column-count: 2;
@@ -993,7 +1049,7 @@ background-image: url('buy_1.jpg');
   display: inline-block;
   width: 500px;
   padding:10px;
- 
+  line-height: 130%;
 
 }
 
@@ -1017,7 +1073,7 @@ background-image: url('buy_1.jpg');
   font-family: "Helvetica Neue Light", sans-serif; 
   font-weight: 100;
   font-size: 13px;
-  width: 510px; 
+  width: 580px; 
   margin:30px;
   display: inline-block;
    -webkit-column-count: 2;
@@ -1025,6 +1081,19 @@ background-image: url('buy_1.jpg');
   column-count: 2;
 
 }
+
+.post-v-1 p{ color: black;
+
+  font-family: "Helvetica Neue Light", sans-serif; 
+  font-weight: 100;
+  font-size: 13px;
+  width: 510px; 
+  height: 650px;
+  margin: 30px;
+   line-height: 130%;
+
+}
+
 
 
 .post-p-1 p {  font-family: "Helvetica Neue Light", sans-serif; 
@@ -1101,7 +1170,7 @@ background-image: url('buy_1.jpg');
   
   font-family: "Helvetica Neue Light", sans-serif; 
    font-weight: 900;
-  font-size: 60px;
+  font-size: 55px;
   width: 70%;
   display: inline-block;
   float:left;
@@ -1116,7 +1185,7 @@ background-image: url('buy_1.jpg');
   display: inline-block;
   font-family: "Helvetica Neue Light", sans-serif; 
    font-weight: 900;
-  font-size: 60px;
+  font-size: 55px;
   width: 300px;
   height: 400px;
   float: left;
@@ -1133,7 +1202,7 @@ background-image: url('buy_1.jpg');
   display: inline-block;
   font-family: "Helvetica Neue Light", sans-serif; 
    font-weight: 900;
-  font-size: 60px;
+  font-size: 55px;
   width: 300px;
   height: 200px;
   float: left;
@@ -1151,14 +1220,32 @@ background-image: url('buy_1.jpg');
   display: inline-block;
   font-family: "Helvetica Neue Light", sans-serif; 
    font-weight: 900;
-  font-size: 60px;
-  width: 300px;
-  height: 250px;
+  font-size: 55px;
+ width: 300px;
+  height: 400px;
   float: left;
+ top: 500px;
  margin:20px;
 
 
 }
+
+.post-h-2 header { 
+
+
+  display: inline-block;
+  font-family: "Helvetica Neue Light", sans-serif; 
+   font-weight: 900;
+  font-size: 55px;
+ width: 300px;
+  height: 100px;
+  float: left;
+ top: 500px;
+ margin:20px;
+
+
+}
+
 
 
 
@@ -1270,6 +1357,15 @@ background-image: url('buy_1.jpg');
   margin:20px;
 }
 
+.shoes-1.mono {
+  background-image: url('r_31.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  width:360px;
+  height:200px;
+  display: inline-block;
+  margin:20px;
+}
 
 
 
@@ -1284,15 +1380,15 @@ background-image: url('buy_1.jpg');
 
           
 
-.vt img{ width: 350px; 
- height:500px; 
- margin:30px;
+.vt img{ width: 300px; 
+ height:400px; 
+ margin:60px;
 }
 
-.mar img {width:350px;
-          height:450px; 
-          margin: 30px;
-
+.mar img {width:300px;
+          height:400px; 
+           margin: 60px;
+           display: inline-block;
 
 }
 
@@ -1320,10 +1416,11 @@ background-image: url('buy_1.jpg');
 
 
 
-.raf_3 img { width:210px;
-          height:400px; 
-          margin-top:80px;
+.raf_3 img { width:200px;
+          height:340px; 
+          margin:20px;
           display: inline-block;
+
 
            }
 
@@ -1428,7 +1525,7 @@ background-image: url('buy_1.jpg');
   display: inline-block;
   width: 300px; 
   padding:10px; 
-  margin-left: 230px;
+  margin: 50px;
 
 }
 

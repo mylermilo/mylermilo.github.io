@@ -1,0 +1,15 @@
+header { position: fixed;
+         top: 0;
+         left: 0;
+
+ }
+
+ .sticker { 
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background: powderblue;
+
+  } 
